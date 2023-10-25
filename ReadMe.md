@@ -116,7 +116,9 @@ If you like or are using this project to learn or start your solution, please gi
           2. [EasyCaching](https://github.com/dotnetcore/EasyCaching)
        2. [Memcached](https://memcached.org)
     - Application-Level
-       - [Response Caching](https://learn.microsoft.com/en-us/aspnet/core/performance/caching/response)
+       - Response Caching
+          1. [Built in](https://learn.microsoft.com/en-us/aspnet/core/performance/caching/response)
+          2. [Marvin.Cache.Headers](https://github.com/KevinDockx/HttpCacheHeaders)
        - [Output Caching](https://learn.microsoft.com/en-us/aspnet/core/performance/caching/output?source=recommendations)
        - [Entity Framework 2nd Level Cache](https://github.com/VahidN/EFCoreSecondLevelCacheInterceptor)
 
@@ -173,6 +175,8 @@ If you like or are using this project to learn or start your solution, please gi
     2. Integration Testing
        - [WebApplicationFactory](https://docs.microsoft.com/aspnet/core/test/integration-tests)
        - [TestServer](https://koukia.ca/integration-testing-in-asp-net-core-2-0-51d14ede3968)
+       - [Respwan](https://github.com/jbogard/Respawn)
+       - [Test Containers](https://github.com/testcontainers/testcontainers-dotnet)
     3. Snapshot Testing
        - [Verify](https://github.com/VerifyTests/Verify)
     4. Behavior Testing
@@ -246,15 +250,19 @@ If you like or are using this project to learn or start your solution, please gi
        - On-Premises
           - [ELK Stack](https://www.elastic.co/what-is/elk-stack)
           - [Seq](https://datalust.co/seq)
+          - [Sentry.io](https://sentry.io/welcome/)
        - Cloud
           - [Datadog](https://docs.datadoghq.com/logs)
+          - [Sentry.io](https://sentry.io/welcome/)
     - Tracing
        - On-Premises
           - [OpenTelemetry](https://github.com/open-telemetry/opentelemetry-dotnet)
              - [Jaeger](https://github.com/jaegertracing/jaeger)
              - [Zipkin](https://github.com/openzipkin/zipkin)
+             - [Sentry.io](https://sentry.io/welcome/)
        - Cloud
           - [Datadog](https://docs.datadoghq.com/tracing)
+          - [Sentry.io](https://sentry.io/welcome/)
     - Alerting
        - On-Premises
           - [Zabbix](https://www.zabbix.com)
@@ -281,6 +289,7 @@ If you like or are using this project to learn or start your solution, please gi
     - [Swashbuckle](https://github.com/domaindrivendev/Swashbuckle.AspNetCore)
     - [Nuke](https://github.com/nuke-build/nuke)
     - [EF Core Bulk Extensions](https://github.com/borisdj/EFCore.BulkExtensions)
+    - [Distributed Lock](https://github.com/madelson/DistributedLock)
 
 
 ## Wrap Up
